@@ -2,9 +2,9 @@ import throttle from 'lodash.throttle';
 
 let getForm = document.querySelector('.feedback-form');
 
-const throttle = throttle(handleSubmit, 500);
+// const throttle = throttle(handleSubmit, 500);
 
-getForm.addEventListener('submit', handleSubmit, throttle);
+getForm.addEventListener('submit', handleSubmit);
 
 function handleSubmit(e) {
   e.preventDefault();
