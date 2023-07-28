@@ -49,3 +49,7 @@ img {
 li {
   list-style: none;
 }
+
+err {
+  color: red
+}
